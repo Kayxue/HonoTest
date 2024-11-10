@@ -1,0 +1,78 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@hono/hono@*": "4.6.9",
+    "jsr:@jcs224/hono-sessions@*": "0.7.0",
+    "jsr:@std/fs@*": "1.0.5",
+    "jsr:@std/path@^1.0.7": "1.0.8",
+    "npm:hono@*": "4.6.9",
+    "npm:hono@4": "4.6.9",
+    "npm:iron-webcrypto@0.10.1": "0.10.1",
+    "npm:passport-local@*": "1.0.0",
+    "npm:passport@*": "0.7.0"
+  },
+  "jsr": {
+    "@hono/hono@4.6.9": {
+      "integrity": "4d4975f5c023d4416d26e6dd4a498c56e59958561733f56f55a9be57f023603b"
+    },
+    "@jcs224/hono-sessions@0.7.0": {
+      "integrity": "147eeaee766faa1f04eeaba892f54fc1fc3858a0386850e6ea57daf6d758a672",
+      "dependencies": [
+        "npm:hono@4",
+        "npm:iron-webcrypto"
+      ]
+    },
+    "@std/fs@1.0.5": {
+      "integrity": "41806ad6823d0b5f275f9849a2640d87e4ef67c51ee1b8fb02426f55e02fd44e",
+      "dependencies": [
+        "jsr:@std/path"
+      ]
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    }
+  },
+  "npm": {
+    "hono@4.6.9": {
+      "integrity": "sha512-p/pN5yZLuZaHzyAOT2nw2/Ud6HhJHYmDNGH6Ck1OWBhPMVeM1r74jbCRwNi0gyFRjjbsGgoHbOyj7mT1PDNbTw=="
+    },
+    "iron-webcrypto@0.10.1": {
+      "integrity": "sha512-QGOS8MRMnj/UiOa+aMIgfyHcvkhqNUsUxb1XzskENvbo+rEfp6TOwqd1KPuDzXC4OnGHcMSVxDGRoilqB8ViqA=="
+    },
+    "passport-local@1.0.0": {
+      "integrity": "sha512-9wCE6qKznvf9mQYYbgJ3sVOHmCWoUNMVFoZzNoznmISbhnNNPhN9xfY3sLmScHMetEJeoY7CXwfhCe7argfQow==",
+      "dependencies": [
+        "passport-strategy"
+      ]
+    },
+    "passport-strategy@1.0.0": {
+      "integrity": "sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA=="
+    },
+    "passport@0.7.0": {
+      "integrity": "sha512-cPLl+qZpSc+ireUvt+IzqbED1cHHkDoVYMo30jbJIdOOjQ1MQYZBPiNvmi8UM6lJuOpTPXJGZQk0DtC4y61MYQ==",
+      "dependencies": [
+        "passport-strategy",
+        "pause",
+        "utils-merge"
+      ]
+    },
+    "pause@0.0.1": {
+      "integrity": "sha512-KG8UEiEVkR3wGEb4m5yZkVCzigAD+cVEJck2CzYZO37ZGJfctvVptVO192MwrtPhzONn6go8ylnOdMhKqi4nfg=="
+    },
+    "utils-merge@1.0.1": {
+      "integrity": "sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA=="
+    }
+  },
+  "redirects": {
+    "https://deno.land/x/onyx/mod.ts": "https://deno.land/x/onyx@v1.0.1/mod.ts",
+    "https://deno.land/x/onyx/src/strategies/local-strategy/local-strategy.ts": "https://deno.land/x/onyx@v1.0.1/src/strategies/local-strategy/local-strategy.ts"
+  },
+  "remote": {
+    "https://deno.land/x/onyx@v1.0.1/mod.ts": "8c549683a962ed822e285e387683bde3e1c17422043c4cbf222515e90d164a10",
+    "https://deno.land/x/onyx@v1.0.1/src/middleware/authenticate.ts": "37079639123b6406c00426405f777882b06ddd2af75c5c3dbd85b0503bc56f2e",
+    "https://deno.land/x/onyx@v1.0.1/src/onyx.ts": "6763b2154c9e41a38eab5fc47ea315c8e4e4945e90675ad572f06c282c6e9ff4",
+    "https://deno.land/x/onyx@v1.0.1/src/sessionManager.ts": "69cf75f8e1516bdb9018e715f82f5dc3c7b3925796a3cbe0a5f942656984713c",
+    "https://deno.land/x/onyx@v1.0.1/src/strategies/local-strategy/local-strategy.ts": "60a60fa88a76cd8d2c79ea8bef3cdfc03c525e55fbb330a8b1a8696ea5720910",
+    "https://deno.land/x/onyx@v1.0.1/src/strategy.ts": "5f005281f46064ffe4ffa6ebc1d568d9ab519e50af2a38f714de7329d576818e"
+  }
+}

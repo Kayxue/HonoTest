@@ -1,0 +1,10 @@
+{
+	"fmt": {
+		"indentWidth": 2,
+		"semiColons": true,
+		"useTabs": true
+	},
+	"compilerOptions": {
+		"strict": false
+	}
+}
